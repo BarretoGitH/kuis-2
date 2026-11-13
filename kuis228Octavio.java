@@ -11,6 +11,9 @@ public class kuis228Octavio {
         int biaya;
         int biayaTinggi=0;
         int jmlTariftinggi=0;
+        int nim2= 40;
+        int kapasitas = (nim2 % 10) + 10;
+        int jmlPelangganDilayani =0;
         
         for (int i = 1; ; i++) {
             System.out.print("Berat cucian pelanggan ke-" + i + " (kg): ");
@@ -37,6 +40,7 @@ public class kuis228Octavio {
            if (biaya>biayaTinggi){
                biayaTinggi=biaya;
            }
+          
            
             totalBiaya = 0;
             totalBiaya += biaya;
